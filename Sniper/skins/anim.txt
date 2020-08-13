@@ -1,0 +1,6 @@
+0-36 - walk
+37-58 - run
+59-104 - idle
+105-107 - shoot
+108 - crouch
+108-130 - crouch_walk

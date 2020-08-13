@@ -1,0 +1,294 @@
+2.4
+===
+- Végtelen állóképesség javítva
+- Dedikált szerver leáll, ha leáll a játék
+- Részecskék küldésének módja megváltoztatva
+- 32 spawnpoint minden pályán
+- Program teljesítmény javítva
+- Paranccsor érzékelési hiba javítva
+- Kilépéskor N megnyomására zeneváltás javítva
+- Esetleges fájlbeolvasási hibák javítva
+- HUD lõszercsík eredeti játékéra módosítva
+- 125-ös FPS korlát módosítható/kikapcsolható
+- /ban parancs hozzáadva
+- Kevesebb merevlemez mûvelet
+- Ping tulajdonság a pontlistához hozzáadva, pinglimit szerverhez beállítható
+- Játékos neve helyett játékos azonosító-t (ID) is meg lehet adni
+- Fegyver sebzések módosítva
+- Kevésbé pazarló hálózati kód
+- Játékos sebessége az eredeti játékhoz állítva
+- Kliens, szerver ráta állíthatósága módosítva biztonságos értékekre
+- Alternatív lépéshangok eltávolítva
+- Menüelemek élesebbek
+- Kirúgáskor, kitiltáskor üzenet megjelenítés
+
+2.33
+====
+- Fennakadások küszöbökön javítva
+- Karakter animációk újradolgozva
+- Torkolattûz látszik a többi játékos fegyverén
+- Fegyverek mûködése megváltoztatva az eredeti játékéra
+- Fegyver "rángatózás" (bobbing) megváltoztatva az eredeti játékéra
+- Fegyvercsere látványosabbá téve, hibája javítva
+- Becsapódás effekt kinézete lecserélve
+- Botok nehézségi szinte lejebb véve
+- HUD átméretezési módszere javítva
+- Guggolás kamera hibája javítva
+- Eséstõl való sérülés (fall damage)
+- Mesterlövész távcsõ csík javítva (jobb szélen volt látható)
+- Korszerûbb mesterszerver
+- Sikertelen kereséskori hiba javítva
+- P90 sebzése lejebb véve
+- Dedikált szerver
+- Pályaváltás kliensként javítva
+
+2.2
+===
+- Utolsó kiegészítés
+- Halálkor kiírja akit megöltél vagy aki megölt
+- Esetleges indítási hiba javítva
+
+2.1
+===
+- Utolsó javítás
+- Gránát hiba javítva ismét
+
+2.0
+===
+- Utolsó verzió
+- Harcmezõk pályán Mortyr gép javítva
+- Pontlista hiba javítva
+- Gránát sebzés hiba javítva (kliens nem tudta megölni önmagát vele)
+- Botok hozzáadva - admin parancs: /addbot (egy botot hozzáad a szerverhez),
+  /rembot (összes botot törli), bónuszpályák kivételével minden pályán mûködik
+- Új parancs: /showstella - csak nyílt pályán mûködik (bónuszpályák kivételével)
+- Szerverlista hozzáadva
+- Kisebb meglepetés (használat/újraéledés gomb-ra történik bizonyos tárgyakon)
+
+1.9
+===
+- Boss HP-ja meghatározható idézéskor (/summonboss HP) a HP-nak nagyobbnak kell lennie, mint 99
+- Boss HP kijelzõ hozzáadva
+- Új parancs: /changelevel pályaszám (1-12) - pálya váltás játék közben
+- Felesleges, zavaró pálya fények kikapcsolva
+- Gránát fizikája finomítva
+- game_error.txt használata megszüntetve, helyette a bal felsõ sarokban fog megjelenni hiba üzenet
+- Alapértelmezett grafika: Közepes
+
+1.81
+====
+- Bossfight hozzáadva (megidézése a 3. Bónuszpályán lehetséges, adminnak: /summonboss,
+  megsemmisítése: /killboss)
+- Fegyverek sebzése finomítva
+- Hibás parancs beírása esetén hibaüzenet a chatben
+
+1.8
+===
+- Új karakterek: Olasz1, Olasz2, Kínai, Jack
+- Új pályák: Utolsó Ítélet, 3. Bónuszpálya
+- Ingram mérete a játékos karakteren növelve
+
+1.71
+====
+- Maximális FPS 125-re növelve
+- Fegyerpozíció javítva: M14 (elsõ lövés után elugrott a puska a kézbõl)
+- Fegyverszinkron hiba javítva (kezdõ fegyver HKG8 volt M14 helyett)
+- Áttetszõség hiba a 2. Bónuszpályán javítva
+- Fegyver lámpája halálkor kikapcsol
+- Egyezõ név hiba javítva (bizonyos esetben fel tudott egyezõ névvel is csatlakozni a játékos)
+- Adminisztrátori jelszó beállítható, így mások is kaphatnak admin jogot (ha elrontod a jelszót
+  akkor ledob a szerver, természetesen újra meg lehet próbálni, ha újra felmegyünk a szerverre)
+- Oldschool módban beállítható az automatikus fegyverváltás
+- Tommy csontváza javítva
+- Kódok optimizálva (játék scriptek)
+- Pályák módosítva: Elõszó, Az öreg kolostor (lightmapping)
+- Elõszó, 2. Bónuszpályán mozog a víz
+- H gombbal lehet váltogatni a HUD kikapcsolás módját (1. normál HUD ki (HP,Ammo), 2. minden ki,
+  3. minden HUD vissza)
+
+1.7
+===
+- Fegyversebesség problémák javítva (változó sebességgel mûködtek a gépfegyverek)
+- Minden fegyver sebessége megváltoztatva
+- Egyéb sikertelen kapcsolódások okai hozzáadva (game_error.log-ba menti ugyanúgy)
+- Lámpa hozzáadva: SIG, P90 (másodlagos tûz gombbal elõhozható)
+- Egyszerû és Közepes grafikai szintek teljesítménye minimálisan csökkent
+- Halálhörgések hozzáadva
+- Újraéledéses sérülés hiba javítva
+- Stabil felirat kivéve (attól még stabil)
+- Pontlista maximum játékosok száma hiba javítva
+- Kidobás parancs hozzáadva, chatben: /kick név (csak szervernek)
+- További parancsok: /goto név | /get név (goto = hozzá teleportálás,
+  get = õt teleportálod magadhoz, szintúgy csak szervernek)
+- Halálüzenet átalakítva halállistává, jobb felsõ sarokba helyezve
+- 5 soros a halállista és a chat, betûméretük csökkentve
+- Új menüpont: Szerver opciók
+- Portszám, Maximális Játékosszám (2-32-ig) állítható
+- Fegyvereket le lehet tiltani a normál módban
+- Célkereszt játékosra mutatva kiírja a játékos nevét (kikapcsolható)
+- Új mód: Instagib
+- Állítható a hangerõ
+- Alternatív lépéshangok hozzáadva (csak te hallod, csak a te karakteredre vonatkozik)
+- Az utcán pálya javítva
+- Minden pálya 16 spawn point-al van ellátva
+- Új pálya: 2. Bónuszpálya
+- Majdnem hibátlan a halál és a fegyverszinkron
+- Karakterek fegyver pozíciói javítva
+- Beragadt animáció fegyver újratöltésekor javítva
+- Maximális FPS 75-re beállítva (igazságtalan elõny elkerülése végett)
+- Új karakter: Tommy
+
+1.6
+===
+- Vér lecserélve
+- Torkolattüzek lecserélve
+- Sérülés jelzõ hozzáadva
+- Karakterek találati zónái javítva
+- Pazarló utasítások javítva
+- Pontlista legtöbb ölés szerint rendezve, adatok színe eltérõ
+- Pontlista megközelíti a hibátlan mûködést
+- HUD újradolgozva, megközelíti az eredetit
+- HUD (Kijelzõ) ki/be kapcsoló gomb hozzáadva
+- Új pálya: Mélyebbre (>LNIn3)
+- Egér görgõvel is lehet fegyvert váltani
+- Chat lekicsinyítve, maximális karakterszám: 64
+- Egy-két pálya minimálisan módosítva
+- Lépcsõzéses hibák javítva, olyan felületen is fel lehetett jutni, ahol
+  abszolút lehetetlen lenne normál esetben
+- Lefûrészelt Sörétes erõsebben sebez
+- Pályaválasztó menübe oldalak hozzáadva
+- Új szerver beállítás: Old School Mod
+
+1.52
+====
+- Beragadó részecskék hiba javítva, ugyanez gránátra
+- X gomb kivéve (részecskék törlésére volt használható)
+- Eltûnõ játékos hiba javítva
+- Súlyos kapcsolati hibák javítva
+- Játék indításakor nem kell várni a menüre
+- Naplófájl kiiktatva
+- HUD Lecserélve az eredeti színûre
+- Inverz egér bug javítva
+- Csatlakozást most már a menübõl lehet csinálni, nem kell betölteni pályát hozzá
+- Jelenlegi és maximum játékosok hozzáadva a pontlistához
+- Pontlista hiba javítva
+- Elsõ stabil kiadás
+
+1.51
+====
+- Pálya átirányítási hiba javítva (A Lázadó pályán)
+
+1.5
+===
+- Új pálya: Az Öreg Kolostor
+- Új pálya: Elõszó
+- Új karakter: Rendõr
+- Lépcsõzés stabilizálva (eddig visszacsúszott a karakter a lépcsõn)
+
+1.4
+===
+- A Maximális grafikai szint teljesítménye javítva
+- A pályák nevei megjelennek, ha rájuk viszed az egér mutatót
+- Új pálya: Harcmezõk
+- Új pálya: Bónuszpálya
+- Régebbi pályák újradolgozva
+
+1.3 fix
+=======
+- HUD hiba javítva a 2. pályán (A menekülés)
+
+1.3
+===
+- Fegyverszámok felcserélve, sorrendbe rakva
+- Fegyverikonok felújítva
+- Összes fegyver elérhetõ (10 fegyver)
+- Stella beszólások beállítási hiba javítva
+- Alternatív sörétes puska opció hozzáadva (Mossberg Shotgun textúra)
+- M14 mesterlövész puska lõszerszáma javítva 20-ra
+- Lõszer kijelzõ formátuma módosítva az eredeti játék formátumára
+- Automata újraéledés beállítás hozzáadva
+- Többféle külsõ választható
+- 1. Pályán textúrahiba javítva (A lázadó)
+- Új pálya: Leszámolás
+- Mozgás lassítva, állóképesség 2x gyorsabban töltõdik vissza
+
+1.24
+====
+- Életerõ csík kifordulás hibája javítva
+- Javítva: Halálkor elõfordult, hogy a torkolattûz vagy fegyver ottmaradt
+
+1.23
+====
+- Folyamatos meghalás javítva, ha kiestél a pályáról
+- Stella beszólásai ki/be kapcsolhatóak
+- Játék közben ESC megnyomásakor megjelenik egy figyelmeztetõ üzenet a kilépésrõl
+- A kezdõ zene megadható a beállítások menüben
+- Gumibot hatékonyabban sebez (sebessége megegyezik az eredeti játékban lévõvel)
+
+1.22
+====
+- Újabb próbálkozás a részecskék "bennragadása" ellen, amint betölti a játékost azonnal törli, ha talál
+- Biztonság kedvéért kliens oldalon "tisztító" gomb hozzáadva, a "bennragadt" részecskék ellen
+  az X gomb lenyomásával kitörli az összes szikrát és vérfoltot
+- K gombbal öngyilkosságot lehet elkövetni (-1 pont jár érte, fél percenként használhatod)
+- Dominick véletlenszerû dolgot beszólhat az F gomb lenyomásával (5mp-enként lehet 1-et)
+- Új fegyver: gránát
+- Q gombbal eldobhatunk egy gránátot
+- Pontlista pontossága növelve, nincsenek véletlenül "beragadt" nevek
+- 3. pálya fényessége enyhén növelve, ég kicserélve (Az utcán)
+- E gombbal újraéledhetünk, ha meghaltunk
+- Módosított grafikai szintek (a legalacsonyabb szinten is jó grafikát kapunk kisebb terheléssel)
+- Áttetszõségi hiba javítva a 2. pályán (A menekülés)
+- Kisebb "meglepetés"
+
+1.21
+====
+- Súlyos hiba javítva: vérfolt és szikra túlterhelte csatlakozáskor a gépet, mivel "bennragadt"
+  (tesztelés során nem merült fel, nagy eséllyel megszûnt)
+- Ingram lelassítva, túlzottan terhelte a szervert (kárpótlásképpen: 2x sebzés)
+- Szerver object törlési problémák elõfordulhatnak (unity konzol üzenet), de nem okoztak
+  olyan jellegû hibát, ami ellehetetlenítené a játékot
+- A játék minimalizált (kis méret) állapotban is futni fog, hogy elkerüljük a szinkronhibákat
+- Ha rossz pályát töltesz be automatikusan át fog irányítani a másik pályára
+- game_error.log-ba kiírja az esetleges hibát, ha rögtön ledob a szerver (2 hiba van:
+  egyezõ név, rossz verzió) egyéb esetben üresen marad az naplófájl
+- Torkolattûz hiba javítva, lövés közben való fegyverváltás esetén "nem kapcsolódott ki" a torkolattûz
+- Textúra hibák javítva a 3. pályán (Az utcán)
+- Inverz egér, Automata újratöltés, és Játék közbeni zene beállítás hozzáadva
+- Játékos csatlakozás/szétkapcsolás üzenet hozzáadva
+- Új fegyver: gumibot
+
+1.2
+===
+- Új pálya: Az utcán
+
+1.13
+====
+- 4 zene választható játék közben
+- Beállítható játék közbeni elsõ zene
+- Ingram felgyorsítva, lõszerszám javítva
+- Véletlenszerû sérülés hozzáadva
+- Kisebb "meglepetés"
+
+1.12
+====
+- Guggolás animáció
+- Új fegyver: ingram
+- HP rendszer
+- Kapcsolat terhelõ funkciók javítva
+
+1.11
+====
+- Súlyos csomagküldési hiba javítva (kliens betalált kliensnek és szerver kapta volna a halál meghívást)
+- Lényegében kliens-kliens játékost nem tudott ölni, szerver-kliens-t pedig igen és fordítva
+- Pontlista hiba javítva
+
+1.1
+===
+- Vérzõ busz hozzáadva
+- Új pálya: Menekülés
+- Indító kép hozzáadva, ikon lecserélve
+
+1.0
+===
+- Elsõ kiadás

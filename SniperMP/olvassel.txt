@@ -1,0 +1,124 @@
+/===============================================\
+|Sniper: Path of Vengeance Multiplayer by Kurtis|
+\===============================================/
+
+Figyelem!
+Ez a játék elsõsorban azért készült, mivel az eredeti játéknak nincsen többjátékos módja.
+A játék stabilnak mondható, viszonylag problémák nélkül játszható.
+Ez a játék az Unity engine-t használja.
+
+A következõ portot kell megnyitnia a szerver készítõnek: 5300
+
+Játékmenet
+==========
+Ha betöltött a menü, akkor elõször érdemes a Vegyes opciók-ba bemenni, vagy lehet notepaddal
+szerkeszteni a config.ini fájlt.
+
+Szerver
+=======
+Mindenképpen érdemes megnézni a Szerver opciók menüpontot, mielõtt szervert indítanánk. Ha
+megvagyunk vele, akkor menjünk az Új játék indítása menüpontra. Itt kattintsunk rá a nekünk
+tetszõ pályára, vagy lehet lapozni alul a nyíllal.
+Ha betöltött a pálya, akkor kattintsunk rá a Szerver indítása gombra, ha nem tetszene a pálya,
+akkor a Vissza a menübe gombbal visszatérhetünk a menübe.
+
+Kliens
+======
+Csak annyit kell tenni, hogy kiválasztjuk a Csatlakozás szerverhez menüpontot, és beírjuk a szerver
+IP címét, illetve ha nem 5300-as porton futtatja a szervert, akkor azt át kell írni. Általában
+a csatlakozónak érdemes max. 5-10 mp-et várni a menüben, ha ez után nem történt semmi, akkor nézzük
+meg a game_error.log-ot, ott le van írva a hiba oka.
+Ha viszont csatlakozáskor a pálya töltõdik be, és behozza a két gombot, akkor várjunk 5 mp-et, mivel
+akkor tölti be a szerver információkat.
+
+Minimális Rendszerigény
+(nem feltétlen pontos)
+=======================
+- Windows XP és késõbbiek
+- 1,6GHz Intel Celeron CPU
+- 64MB VideoRAM
+- 200MB SZABAD RAM (XP esetén ~512MB, Vista/7 ~1024MB)
+- 250MB Szabad terület
+- RPC szolgáltatás
+- .Net Framework 2.0
+
+Beállítási lehetõségek
+======================
+Játékos:
+Multiplayer név - Szerveren megjelenõ neved
+Egér érzékenység - Az egér érzékenysége állítható
+Szkóp érzékenység - Ha célzol, akkor mekkora legyen az egér érzékenység
+			(kevesebb legyen mint az egér érzékenység)
+Inverz Egér - Megfordítja a fel és le nézést
+Hangerõ - A játék hangereje állítható vele
+Auto újratöltés - Ha üres a tár automatikusan újratölti neked a fegyvert
+Zene (játék közben) - Csak a játék közbeni zenét kapcsolja ki (menüt természetesen nem)
+Stella beszólások - Szerintem játék közben rá fogsz jönni
+Zene: szám (gombként) - A kezdõ zenét lehet vele kiválasztani
+Alternatív sörétes - Egy ki nem használt textúra a sörétes puskára
+Automata újraéledés - Nem kell megnyomni az E gombot halálonként, hanem ha megölnek azonnal újraéledsz
+Külsõ: név (gombként) - Karaktered kinézete, a hozzá tartozó beszólások is másak lesznek
+Játékos Nevek - Ha célkeresztbe kerül egy játékos, akkor kiírja a nevét
+MaxFPS - Képkockasebesség korlátozása a megadott számra (0 esetén kikapcsol)
+Felvételkor váltás - Oldschool módban ha felveszel egy fegyvert akkor automatikusan rávált
+Kliens ráta - Csomagküldési gyakoriság kliensnél (haladó)
+
+Szerver:
+Max Játékosszám - Maximálisan megengedett játékosok száma (szerverrel együtt, 2-32)
+Portszám - Csak akkor írd át a számot, ha más port van megnyitva neked (haladó)
+Admin jelszó - Ha nem üres, akkor más játékos a /admin jelszó paranccsal kaphat jogot
+OldSchool Mod - Klasszikus multiplayer mód
+Instagib Mod - Egy fegyvered van, 999 lõszerrel, egy lövéssel öl és egy gumibotod
+Pinglimit - Ha engedélyezve van a megadott átlagping feletti játékosokat kidobja a szerverrõl
+Letiltandó fegyverek - A bejelölt fegyverek le lesznek tiltva a szervereden (csak ha normál módon van)
+Szerver ráta - Csomagküldési gyakoriság szervernél (haladó)
+
+Irányítás
+=========
+W,A,S,D - Mozgás
+1..9 vagy egér görgõ fel/le - fegyver váltás
+Bal egér - Lövés
+Jobb egér - Szkóp (M14) vagy lámpa (SIG, P90)
+R - Fegyver újratöltése
+Szóköz(SPACE) - Ugrás
+Bal Shift - Futás
+C - Guggolás
+TAB - Pontlista megjelenítése
+E - Újraéledés
+Q - Gránát eldobása (1 db van nálad összesen)
+F - Véletlenszerû beszólás
+K - Öngyilkosság (-1 pont jár érte és fél percenként használhatod)
+T - Chatelés
+N - Következõ zene
+M - Zene kikapcsolása (csak játékban)
+H - HUD (Kijelzõ) ki/be kapcsolása (1. megnyomás HP,Ammo kikapcsolása, 2. chat kikapcsolása,
+	3. minden visszakapcsolása)
+ESC - Játék közben szerverrõl való lecsatlakozás, menü megnyitása
+
+Parancsok (chatben)
+===================
+/kick id	- Az adott nevû játékost kidobhatjuk a szerverrõl
+/ban id		- Az adott nevû játékost kitilthatjuk a szerverrõl
+/reloadbans	- Újratölti a bans.txt fájlt
+/goto id	- Az adott nevû játékoshoz teleportálunk
+/get id		- Az adott nevû játékost magunkhoz teleportáljuk
+/summonboss	- Megidézi a bosst a 3. Bónuszpályán
+/summonboss hp	- Szintúgy megidézi a bosst, csak meghatározott HP-val (99-2^31 közötti számot fogad el)
+/killboss	- Megöli a bosst a 3. Bónuszpályán
+/changelevel szám - Pályaváltás játék közben (1-12)
+/addbot         - Egy botot ad hozzá a játékhoz
+/addbot szám	- Megadott számú botot ad hozzá a játékhoz
+/rembot         - Törli az összes botot a pályáról
+/showstella     - Próbáld ki egy nyílt pályán (bónuszpályák kivételével)
+/admin jelszó	- Ha van a szerveren admin jelszó, és tudjuk, akkor ezzel beléphetünk adminként
+		a szerverre. Egy lehetõségünk van, ha elrontjuk egyszer, a szerver le fog minket
+		dobni. Természetesen újracsatlakozás után ismét próbálkozhatunk.
+
+Információ
+==========
+Bal felsõ sarokban kapunk egy hibaüzenetet, ha netán valami miatt ledobna a szerver
+
+Ha azonnal ledob a szerver 3 oka lehet ennek:
+- Eltérõ verziójú a szerver
+- Megegyezõ név a szerveren
+- Másik pálya van a szerveren (1.21 óta átirányít)

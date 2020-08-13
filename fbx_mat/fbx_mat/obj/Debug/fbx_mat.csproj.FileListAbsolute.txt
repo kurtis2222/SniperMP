@@ -1,0 +1,5 @@
+D:\Dokumentumok\Programming\Exe\Projects\fbx_mat\fbx_mat\bin\Debug\fbx_mat.exe
+D:\Dokumentumok\Programming\Exe\Projects\fbx_mat\fbx_mat\bin\Debug\fbx_mat.pdb
+D:\Dokumentumok\Programming\Exe\Projects\fbx_mat\fbx_mat\obj\Debug\ResolveAssemblyReference.cache
+D:\Dokumentumok\Programming\Exe\Projects\fbx_mat\fbx_mat\obj\Debug\fbx_mat.exe
+D:\Dokumentumok\Programming\Exe\Projects\fbx_mat\fbx_mat\obj\Debug\fbx_mat.pdb

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C1922077-5963-5C95-99DF-39B9DDDBB6F7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Boss\BossHeatseek.cs" />
+     <Compile Include="Assets\Scripts\Boss\BossProj.cs" />
+     <Compile Include="Assets\Scripts\Boss\BossScript.cs" />
+     <Compile Include="Assets\Scripts\Boss\Godzilla.cs" />
+     <Compile Include="Assets\Scripts\Bot\BotScript.cs" />
+     <Compile Include="Assets\Scripts\FreddyD\NormalQuote.cs" />
+     <Compile Include="Assets\Scripts\FreddyD\StellaTaunt.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudAmmo.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudHide.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudHit.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudScale.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudScaleFont.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudStamina.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudTextScale.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudwIcon.cs" />
+     <Compile Include="Assets\Scripts\Menu\LevelList.cs" />
+     <Compile Include="Assets\Scripts\Menu\MenuScript.cs" />
+     <Compile Include="Assets\Scripts\Menu\MenuVer.cs" />
+     <Compile Include="Assets\Scripts\Menu\NewGMenu.cs" />
+     <Compile Include="Assets\Scripts\Menu\NewGame.cs" />
+     <Compile Include="Assets\Scripts\Menu\OptionsMenu.cs" />
+     <Compile Include="Assets\Scripts\Menu\ServOptMenu.cs" />
+     <Compile Include="Assets\Scripts\Misc\BufferProps.cs" />
+     <Compile Include="Assets\Scripts\Misc\CFGLoader.cs" />
+     <Compile Include="Assets\Scripts\Misc\DeathZone.cs" />
+     <Compile Include="Assets\Scripts\Misc\ErrorMessage.cs" />
+     <Compile Include="Assets\Scripts\Misc\FPSWalkerEnhanced.cs" />
+     <Compile Include="Assets\Scripts\Misc\FileConfigManager.cs" />
+     <Compile Include="Assets\Scripts\Misc\GrenadeScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\HeadBob.cs" />
+     <Compile Include="Assets\Scripts\Misc\ImpactEffect.cs" />
+     <Compile Include="Assets\Scripts\Misc\MainScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\OldSchool.cs" />
+     <Compile Include="Assets\Scripts\Misc\OldSchoolPickup.cs" />
+     <Compile Include="Assets\Scripts\Misc\PlayerChecker.cs" />
+     <Compile Include="Assets\Scripts\Misc\SniperScope.cs" />
+     <Compile Include="Assets\Scripts\Misc\SpawnGizmo.cs" />
+     <Compile Include="Assets\Scripts\Misc\StellaScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\StellaScript2.cs" />
+     <Compile Include="Assets\Scripts\Misc\TeleportScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\TextureOffset.cs" />
+     <Compile Include="Assets\Scripts\Misc\TimedDestroy.cs" />
+     <Compile Include="Assets\Scripts\Misc\WeaponScript.cs" />
+     <Compile Include="Assets\Scripts\Networking\ChatGUI.cs" />
+     <Compile Include="Assets\Scripts\Networking\ChatScript.cs" />
+     <Compile Include="Assets\Scripts\Networking\NetScore.cs" />
+     <Compile Include="Assets\Scripts\Networking\NetworkMenu.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{2B5170CE-D66A-E153-6D0E-508AC01E2954}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{70BD32A2-D8BF-5F44-2DE9-B61F93865D37}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
