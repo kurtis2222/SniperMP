@@ -6,6 +6,7 @@
 - 3d modellező ami támogatja a 3DS MAX 2009 **MAX** fájlokat
 - Képszerkesztő ami támogatja a **DDS, PNG, TGA, PSD** fájlokat - PSD fájlok Photoshop 10.0 CS3-al készültek
 - Hangszerkesztő ami támogatja a **WAV, MP3** fájlokat
+- 3D Ripper DX - ha új pályát akarsz kiszedni az eredeti mesterlövészből, kisebb módosítás szükséges hogy az egész pályarészt betöltse a játék
 ## Mappák
 ### Sniper
 - Modell és textúra forrásfájlok
